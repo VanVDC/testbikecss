@@ -69,6 +69,7 @@ main {
 .card3 {
   padding: 30px 30px 20px 30px;
   box-sizing: border-box;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.268);
 }
 
 .herobox1 {
@@ -84,6 +85,7 @@ h1 {
   font-size: 3.25rem;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.268);
 }
 h2 {
   font-size: 2rem;
@@ -113,4 +115,10 @@ p {
   padding: 11px 25px;
   display: inline-block;
   margin-top: 20px;
+  border-radius: 0px 100px 100px 0px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.268);
+}
+nav a.mybutton {
+  border-radius: 0px;
+  margin-left: 30px;
 }
