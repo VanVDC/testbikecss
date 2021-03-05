@@ -126,3 +126,16 @@ nav a.mybutton {
   color: white;
   border: solid 1px white;
 }
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
