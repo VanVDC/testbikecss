@@ -1,9 +1,11 @@
 html {
-  height: 100%;
+  background-image: linear-gradient(#fc5e55, #fa4083);
 }
 
 body {
-  background-image: linear-gradient(#fc5e55, #fa4083);
+  background-image: url(images/image-lion-background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 1.125rem;
