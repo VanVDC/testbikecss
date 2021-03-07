@@ -179,3 +179,7 @@ nav a.mybutton {
 .dropdown .mybutton a {
   color: green;
 }
+
+.inputwrapper {
+  margin-bottom: 20px;
+}

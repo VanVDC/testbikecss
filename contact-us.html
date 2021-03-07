@@ -63,14 +63,35 @@
         </p>
 
         <form action="https://formspree.io/f/mqkgvrne" method="POST">
-          <label>
-            Your email:
-            <input type="email" name="email" />
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
+          <div class="inputwrapper">
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+          </div>
+          <div class="inputwrapper">
+            <label>
+              Email:
+              <input type="email" name="email" />
+            </label>
+          </div>
+          <div class="inputwrapper">
+            <label>
+              Message:
+              <textarea name="message" cols="100" row="5"></textarea>
+            </label>
+          </div>
+
+          <div class="inputwrapper">
+            <input
+              type="checkbox"
+              name="email-sub"
+              id="email-sub"
+              value="yes-sign-me-up"
+            />
+
+            <label> Sing Up for Email Newsletter: </label>
+          </div>
 
           <!-- your other form fields go here -->
 
